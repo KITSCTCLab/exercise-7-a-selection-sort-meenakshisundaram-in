@@ -11,7 +11,7 @@ def selectionSort(array, size)->list:
 # Do not change the following code
 input_data = input()
 data = []
-for item in input_data.split(','):
+for item in input_data.split(', '):
   if item.isnumeric():
     data.append(int(item))
   elif item.lstrip("-").isnumeric():
